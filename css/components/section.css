@@ -1,0 +1,39 @@
+.section {
+  padding: 75px 0;
+}
+
+.section-services,.section-twitter {
+    background-color: #4bcaff;
+}
+
+.section-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.section-title.portfolio {
+    color: #515f67;
+  }
+
+  .section-header {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .section-default {
+    background-color:#515f67;
+  }
+  
+  .section-description {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 28px;
+    max-width: 1055px;
+  }
+
+  .section-about {
+      background-image: url('../../images/_bg_photo.png');
+      object-fit: cover;
+  }

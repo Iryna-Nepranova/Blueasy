@@ -1,0 +1,50 @@
+html {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+}
+
+.container {
+  max-width: 1160px;
+}
+
+.img-coffee {
+  height: 48px;
+  width: 34px;
+}
+
+.img-instant,.img-frame {
+  height: 48px;
+  width: 48px;
+}
+
+.img-dslr {
+  height: 45px;
+  width: 47px;
+}
+
+.uppercase {
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none; 
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.desc {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+a.link-email {
+  font-weight: bold;
+  color: #fff;
+}

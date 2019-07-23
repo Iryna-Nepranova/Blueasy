@@ -1,0 +1,22 @@
+.list-group {
+    flex-direction: row;
+}
+
+.list-group-portfolio {
+    color: #515f67;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid transparent;
+    margin-left: 15px;
+}
+
+.list-group-portfolio:hover {
+    border: 2px solid #4aaad3;
+    color: #4aaad3;
+}
+
+.list-group-portfolio.current-list {
+    border: 2px solid #48b0dc;
+    padding: 8px 15px;
+}

@@ -1,0 +1,33 @@
+.hero {
+    height: 645px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+
+.hero-overlay {
+    position: absolute;
+    background-color: rgba(81,95,103,0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+}
+
+.hero-foreground {
+    position: relative;
+}
+
+.hero-description {
+    max-width: 990px;
+    text-align: center;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-color: rgba(65,75,82, 0.8);
+}
+
+.

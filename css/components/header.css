@@ -1,0 +1,9 @@
+header {
+    background-image: url('../../images/_photo.png');
+    object-position: contain;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}

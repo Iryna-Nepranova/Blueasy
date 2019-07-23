@@ -1,0 +1,56 @@
+.card {
+    background-color: transparent;
+    border: transparent;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.card-text {
+    font-size: 12px;
+    color: #ffffff;
+}
+ 
+.card-porfolio {
+    display: block;
+    position: relative;
+}
+
+.card-body {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.card-cover {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right:0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+
+.card-porfolio:hover .card-cover {
+    display: flex;
+}
+
+.card-porfolio:hover .card-overlay {
+    display: flex;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right:0;
+    left: 0;
+    display: none;
+    background-color: rgba(64,73,80, 0.7);
+    z-index: 0;
+}
+
