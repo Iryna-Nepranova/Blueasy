@@ -1,0 +1,22 @@
+label {
+  font-size: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  height: 60px;  
+}
+
+textarea {
+  width: 100%;
+  outline:none;
+  margin-top: 3px;
+  padding: 10px 20px;;
+  resize: none;  
+}

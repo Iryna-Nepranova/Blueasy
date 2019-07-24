@@ -1,0 +1,8 @@
+.btn.btn-primary {
+    width: 370px;
+    height: 60px;
+    background-color: #4bcaff;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: transparent;
+}

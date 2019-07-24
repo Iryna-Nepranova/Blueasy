@@ -1,3 +1,21 @@
 footer {
   padding: 20px 0;
+  background-color: #353f47;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav {
+  font-size: 12px;
+  color: #515f67;
+  text-transform: uppercase;
+  border-right: 1px solid #515f67;
+  line-height: 1;
+}
+
+.disabl {
+  border-right: transparent;
 }

@@ -2,6 +2,20 @@
     flex-direction: row;
 }
 
+.list-group.contact {
+    flex-direction: column;
+}
+
+.list-group-item-contact {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
+
 .list-group-portfolio {
     color: #515f67;
     font-size: 14px;
