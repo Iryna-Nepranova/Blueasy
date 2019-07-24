@@ -15,14 +15,21 @@
 
 }
 
-
 .list-group-portfolio {
     color: #515f67;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: bold;
+    margin-left: 18px;
+    font-weight: 700;
+    line-height: 24px;
     border: 2px solid transparent;
-    margin-left: 15px;
+    padding: 4px 15px;
+}
+
+.list-group-portfolio.current-list {
+    border: 2px solid #48b0dc;
+    color: #48b0dc;
+    padding: 4px 15px;
 }
 
 .list-group-portfolio:hover {

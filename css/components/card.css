@@ -1,6 +1,7 @@
 .card {
     background-color: transparent;
     border: transparent;
+    padding-bottom: 5px; 
 }
 
 .card-title {

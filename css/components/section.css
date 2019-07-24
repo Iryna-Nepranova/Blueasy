@@ -7,27 +7,26 @@
     padding-bottom: 65px;
 }
 
-.section-portfolio {
-  padding-top: 100px 0;
-}
+
 
 .section-title {
     font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: lighter;
-    padding-bottom: 33px;
+    margin-bottom: 33px;
 }
 
 .section-title.portfolio,.light-title {
     color: #515f67;
+    margin-bottom: 0;
 }
 
-  .section-header {
+.section-header {
       display: flex;
       justify-content: space-between;
-      padding: 10px 0;
-  }
+      padding-bottom: 75px;
+}
   
   .section-default {
     background-color:#515f67;
