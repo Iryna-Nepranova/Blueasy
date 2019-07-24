@@ -13,7 +13,7 @@
     font-weight: lighter;
 }
 
-.section-title.portfolio {
+.section-title.portfolio,.light-title {
     color: #515f67;
   }
 
@@ -33,7 +33,16 @@
     max-width: 1055px;
   }
 
+  .light-desc {
+    color: #515f67;
+  }
+
   .section-about {
       background-image: url('../../images/_bg_photo.png');
       object-fit: cover;
   }
+
+  .section-contact{
+    background-image: url('../../images/Layer_1.png');
+    object-fit: cover;
+}

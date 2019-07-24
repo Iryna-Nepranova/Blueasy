@@ -25,6 +25,11 @@ html {
   width: 47px;
 }
 
+.img-quotes{
+  height: 26px;
+  width: 32px;
+}
+
 .uppercase {
   text-decoration: underline;
 }
@@ -47,4 +52,10 @@ a:hover {
 a.link-email {
   font-weight: bold;
   color: #fff;
+}
+
+.quote {
+  font-size: 14px;
+  color: #4bcaff;
+  font-weight: 700;
 }
