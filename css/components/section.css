@@ -1,9 +1,14 @@
 .section {
-  padding: 75px 0;
+  padding: 73px 0;
 }
 
 .section-services,.section-twitter {
     background-color: #4bcaff;
+    padding-bottom: 65px;
+}
+
+.section-portfolio {
+  padding-top: 100px 0;
 }
 
 .section-title {
@@ -11,15 +16,17 @@
     text-transform: uppercase;
     color: #ffffff;
     font-weight: lighter;
+    padding-bottom: 33px;
 }
 
 .section-title.portfolio,.light-title {
     color: #515f67;
-  }
+}
 
   .section-header {
       display: flex;
       justify-content: space-between;
+      padding: 10px 0;
   }
   
   .section-default {

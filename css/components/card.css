@@ -6,6 +6,8 @@
 .card-title {
     font-size: 24px;
     color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 22px;
 }
 
 .card-text {

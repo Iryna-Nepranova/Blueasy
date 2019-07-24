@@ -43,7 +43,7 @@ img {
 }
 
 .uppercase {
-  text-decoration: underline;
+  border-bottom: 1px solid white;
 }
 
 a{
@@ -71,3 +71,4 @@ a.link-email {
   color: #4bcaff;
   font-weight: 700;
 }
+
