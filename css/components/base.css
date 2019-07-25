@@ -46,6 +46,10 @@ img {
   border-bottom: 1px solid white;
 }
 
+.uppercase-portfolio {
+  border-bottom: 1px solid #515f67;;
+}
+
 a {
   text-decoration: none; 
 }
@@ -59,6 +63,10 @@ a:hover {
   color: #ffffff;
   font-size: 14px;
   line-height: 24px;
+}
+
+.desc-second {
+  padding-top: 15px; 
 }
 
 a.link-email {
@@ -77,13 +85,13 @@ video {
 }
 
 @media (min-width:960px){
-video {
-  height: 250px;
-}
+  video {
+   height: 250px;
+  } 
 }
 
 @media (min-width:1140px){
   video {
     height: 313px;
   }
-  }
+}
