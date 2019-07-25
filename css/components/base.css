@@ -72,3 +72,18 @@ a.link-email {
   font-weight: 700;
 }
 
+video {
+  height: 150px;
+}
+
+@media (min-width:960px){
+video {
+  height: 250px;
+}
+}
+
+@media (min-width:1140px){
+  video {
+    height: 313px;
+  }
+  }

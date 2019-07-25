@@ -1,8 +1,10 @@
-.btn.btn-primary {
-    width: 370px;
-    height: 60px;
-    background-color: #4bcaff;
+.btn.btn-outline-dark{
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
     border-radius: 0;
     text-transform: uppercase;
-    border: transparent;
+    font-weight: 700;
+    border: 2px solid #353f46;
+    margin-top: 10px;
 }

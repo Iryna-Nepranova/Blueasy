@@ -7,8 +7,6 @@
     padding-bottom: 65px;
 }
 
-
-
 .section-title {
     font-size: 30px;
     text-transform: uppercase;
@@ -26,12 +24,23 @@
       display: flex;
       justify-content: space-between;
       padding-bottom: 75px;
+      flex-wrap: wrap;
 }
   
   .section-default {
     background-color:#515f67;
+    padding: 70px 0;
+  }
+
+  .section-title.default {
+    margin-bottom: 40px;
   }
   
+  .desc-defoult {
+    max-width: 470px;
+    padding-bottom: 10px;
+  }
+
   .section-description {
     color: #ffffff;
     line-height: 50px;
