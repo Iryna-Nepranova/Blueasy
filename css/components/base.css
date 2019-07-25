@@ -40,13 +40,14 @@ img {
 .img-quotes{
   height: 26px;
   width: 32px;
+  margin: 3px 15px 0 0;
 }
 
 .uppercase {
   border-bottom: 1px solid white;
 }
 
-.uppercase-portfolio {
+.uppercase-dark {
   border-bottom: 1px solid #515f67;;
 }
 
@@ -78,6 +79,7 @@ a.link-email {
   font-size: 14px;
   color: #4bcaff;
   font-weight: 700;
+  padding-top: 15px;
 }
 
 video {

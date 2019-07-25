@@ -16,6 +16,10 @@
    padding-bottom: 5px;
 }
 
+.section-testimonials {
+  padding: 70px 0 75px 0;
+}
+
 .section-title {
     font-size: 30px;
     text-transform: uppercase;
@@ -29,6 +33,10 @@
 .section-title.portfolio,.light-title {
     color: #515f67;
     margin-bottom: 0;
+}
+
+.section-header.header-testimonials {
+  padding-bottom: 28px;
 }
 
 .section-header {
