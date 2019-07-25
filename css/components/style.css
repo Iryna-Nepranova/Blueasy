@@ -26,15 +26,17 @@
   font-family: 'icomoon' !important;
   speak: none;
   line-height: 1;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+  font-weight: 400;
+  margin: 10px 16px 0 0;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-coffee,.icon-google,.icon-dribbble,.icon-twitter,.list-social{
+.icon-coffee.list-social,.icon-google.list-social,.icon-dribbble.list-social,.icon-twitter.list-social,{
   font-family: 'icomoon' !important;
   speak: none;
   line-height: 1;
