@@ -1,8 +1,14 @@
 .list-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
 .list-group.contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -38,7 +44,8 @@
         padding: 4px 10px;
     }
     .list-group {
-        flex-wrap: wrap;    }
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;    }
 }
 
 .list-group-portfolio.current-list {
@@ -70,4 +77,3 @@
     padding: 0 15px;
     border-right: 1px solid #515f67;
 }
-

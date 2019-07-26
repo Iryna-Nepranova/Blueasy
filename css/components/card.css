@@ -33,16 +33,24 @@
     right:0;
     left: 0;
     display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     z-index: 2;
   }
 
 .card-porfolio:hover .card-cover {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .card-porfolio:hover .card-overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -56,4 +64,3 @@
     background-color: rgba(64,73,80, 0.7);
     z-index: 0;
 }
-
