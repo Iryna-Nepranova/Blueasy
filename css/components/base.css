@@ -102,3 +102,10 @@ video {
     height: 313px;
   }
 }
+
+.copyright {
+  color: #515f67;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
