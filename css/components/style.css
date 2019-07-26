@@ -52,6 +52,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-coffee.list-social:hover,.icon-google.list-social:hover,.icon-dribbble.list-social:hover,.icon-twitter.list-social:hover {
+  color: black;
+  border: 1px solid black;
+}
+
 .icon-coffee:before {
   content: "\e901";
 }

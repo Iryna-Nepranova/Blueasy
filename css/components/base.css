@@ -103,6 +103,10 @@ video {
   }
 }
 
+.disabl {
+  border-right: transparent;
+}
+
 .copyright {
   color: #515f67;
   font-size: 12px;

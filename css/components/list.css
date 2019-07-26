@@ -77,3 +77,15 @@
     padding: 0 15px;
     border-right: 1px solid #515f67;
 }
+
+@media (max-width:960px){
+    .bottom-nav {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #515f67;
+        padding: 0 10px;
+        border-right: 1px solid #515f67;
+    }
+}
