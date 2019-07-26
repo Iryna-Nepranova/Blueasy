@@ -70,6 +70,11 @@ a:hover {
   padding-top: 15px; 
 }
 
+.desc-contact {
+  margin-bottom: 35px;
+  padding-top: 30px;
+}
+
 a.link-email {
   font-weight: bold;
   color: #fff;

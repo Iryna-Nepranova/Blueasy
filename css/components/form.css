@@ -17,6 +17,16 @@ textarea {
   width: 100%;
   outline:none;
   margin-top: 3px;
-  padding: 10px 20px;;
+  padding: 10px 20px;
   resize: none;  
+}
+
+.form-group {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form {
+  max-width: 469px;
+  margin-bottom: 38px;
 }
