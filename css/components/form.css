@@ -30,3 +30,7 @@ textarea {
   max-width: 469px;
   margin-bottom: 38px;
 }
+
+input {
+  background-color: azure;
+}

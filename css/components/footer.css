@@ -16,7 +16,9 @@ footer {
   flex-wrap: wrap;
 }
 
-.disabl {
-  border-right: transparent;
+@media (max-width:960px){
+  footer {
+    padding: 30px 0 37px 0;
+    background-color: #353f47;
+  }
 }
-
