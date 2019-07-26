@@ -127,3 +127,43 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+@media (max-width:960px){
+  .section {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-bottom: 23px;
+    position: relative;
+    z-index: 1;
+  }
+  .section-title.about {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .section-title.portfolio,.light-title {
+    color: #515f67;
+    margin-bottom: 0;
+  }
+  .section-description {
+    color: #ffffff;
+    line-height: 50px;
+    font-size: 20px;
+    max-width: 1100px;
+    font-weight: 300;
+    }
+  
+  .light-desc {
+    color: #515f67;
+    }
+  
+}

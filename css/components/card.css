@@ -64,3 +64,17 @@
     background-color: rgba(64,73,80, 0.7);
     z-index: 0;
 }
+
+@media (max-width:960px){
+    .card-title {
+        font-size: 20px;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding-top: 22px;
+    }
+    
+    .card-text {
+        font-size: 10px;
+        color: #ffffff;
+    }
+}
