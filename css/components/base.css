@@ -87,19 +87,22 @@ a.link-email {
   padding-top: 15px;
 }
 
-video {
+.video {
   height: 150px;
+  width: 100%;
 }
 
 @media (min-width:960px){
-  video {
+  .video {
    height: 250px;
+   width: 100%;
   } 
 }
 
 @media (min-width:1140px){
-  video {
+  .video {
     height: 313px;
+    width: 100%;
   }
 }
 
