@@ -40,10 +40,6 @@ nav.navbar.navbar-light {
     color: #4aaad3;
 }
 
-.nav-item .nav-link-mobile {
-    margin: 10px 0;
-}
-
 .nav-link-mobile {
     font-size: 20px;
     color: white;
@@ -99,6 +95,11 @@ nav.navbar.navbar-light {
     .list-group-portfolio  {
     margin: 15px 0;
     }
+    .active a{
+        border: 2px solid transparent;
+        color: #48b0dc;
+    }
+    
 }
 
 @media (min-width:960px){
