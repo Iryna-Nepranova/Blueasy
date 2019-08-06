@@ -13,3 +13,25 @@ $(document).ready(function(){
 	})
 
 })
+$(window).scroll(function() {
+	var scrollDistance = $(window).scrollTop();
+	$('.section').each(function(i) {
+		
+			if ($(this).position().top <= scrollDistance) {
+					$('.nav .nav-item.active').removeClass('active');
+					$('.nav .nav-item').eq(i).addClass('active');
+			}
+	});
+
+if ($(this).scrollTop() > 50){  
+	$('.navigation').addClass("navigation-sticky");
+}
+else{
+	$('.navigation').removeClass("navigation-sticky");
+}
+}).scroll();
+
+
+
+
+

@@ -1,7 +1,8 @@
 .navigation {
-    background-color: rgba(65,75,82, 0.5);
-    position: relative;
-    z-index: 1;
+    background-color: rgba(65,75,82, 0.7);
+    z-index: 2;
+    position: fixed;
+    width: 100%;
 }
 
 nav.navbar.navbar-light {
@@ -68,6 +69,12 @@ nav.navbar.navbar-light {
     color: #48b0dc;
     padding: 6px 18px;
 }
+
+.active a{
+    border: 2px solid #48b0dc;
+    color: #48b0dc;
+}
+
 
 .navbar-collapse {
     display: -webkit-box;

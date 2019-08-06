@@ -53,8 +53,8 @@
 }
 
 .icon-coffee.list-social:hover,.icon-google.list-social:hover,.icon-dribbble.list-social:hover,.icon-twitter.list-social:hover {
-  color: black;
-  border: 1px solid black;
+  color: #4bcaff;
+  border: 1px solid #4bcaff;
 }
 
 .icon-coffee:before {
